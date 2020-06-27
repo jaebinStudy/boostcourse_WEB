@@ -1,0 +1,50 @@
+section{
+    clear: both;
+}
+nav{
+float: right;
+}
+li{
+    list-style: none;
+}
+.navigation {
+    display: inline-block;
+    border:1px solid gray;
+    width: 100px;
+    text-align: center;
+
+}
+section p{
+    text-align: center;
+}
+section h1{
+    text-align: center;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button-left{
+    display: inline-block;
+    border:1px solid gray;
+    width: 100px;
+    text-align: center;
+
+
+
+}
+.button-right{
+    display: inline-block;
+    border:1px solid gray;
+    width: 100px;
+    text-align: center;
+
+
+
+
+}
+.img_map{
+    margin: auto;
+}

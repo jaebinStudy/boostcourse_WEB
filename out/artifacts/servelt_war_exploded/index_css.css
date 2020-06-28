@@ -1,50 +1,111 @@
-section{
+body {
+    background-color: #73bca1;
+}
+
+nav {
+    display: block;
+    background-color: #ffffff;
+    border: 0.5px solid white;
+    margin-bottom: 10px;
+    padding: 0 0 0 48%;
+
+}
+
+section {
+    display: block;
+    background-color: #ffffff;
+    border: 0.5px solid white;
+    margin-bottom: 10px;
     clear: both;
 }
-nav{
-float: right;
-}
-li{
+
+li {
     list-style: none;
 }
+
 .navigation {
     display: inline-block;
-    border:1px solid gray;
+
     width: 100px;
+    height: 25px;
     text-align: center;
-
-}
-section p{
-    text-align: center;
-}
-section h1{
-    text-align: center;
-}
-.button{
-    margin-left: auto;
-    margin-right: auto;
-
+    font-family: "맑은 고딕 Semilight";
+    font-size: 15px;
+    color: blue;
+    background-color: #59a6a4;
+    box-shadow: 1px 1px 1px 1px #999;
 }
 
-.button-left{
+nav > ul > li > a {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+section p {
+    text-align: center;
+}
+
+section h1 {
+    text-align: center;
+}
+
+
+.button-line {
+    color: white;
+    text-decoration: none;
+
+}
+
+.a {
+    margin-bottom: 30px;
+}
+.b{
+padding: 0px 37.5%;
+}
+
+.button-left {
     display: inline-block;
-    border:1px solid gray;
-    width: 100px;
+
+    width: 110px;
+    height: 110px;
     text-align: center;
-
-
+    background-color: #59a6a4;
+    box-shadow: 1px 1px 1px 1px #999;
+    font-family: "맑은 고딕 Semilight";
+    padding: 20px 0;
 
 }
-.button-right{
+
+.button-right {
     display: inline-block;
-    border:1px solid gray;
-    width: 100px;
+
+    width: 110px;
+    height: 110px;
     text-align: center;
-
-
-
+    background-color: #59a6a4;
+    box-shadow: 1px 1px 1px 1px #999;
+    font-family: "맑은 고딕 Semilight";
 
 }
-.img_map{
-    margin: auto;
+.c{
+    padding: 0px 22%;
+}
+
+.img_map {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 25px;
+
+}
+
+footer {
+    border: 0.5px solid white;
+    height: 38px;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-family: "맑은 고딕 Semilight";
+    color: #519079;
+    margin-bottom: 30px;
 }

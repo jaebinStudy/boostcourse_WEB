@@ -10,6 +10,6 @@
 
     <servlet-mapping>
         <servlet-name>TodayServlet</servlet-name>
-        <url-pattern>Serv1</url-pattern>
+        <url-pattern>/Serv1</url-pattern>
     </servlet-mapping>
 </web-app>

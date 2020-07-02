@@ -17,17 +17,17 @@ public class TodayServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-                response.setContentType("text/html;charset=utf-8");
-                PrintWriter out = response.getWriter();
-                Date today = new Date();
-                out.println("<html>" +
-                        "<body>" +
-                        "<h1><a>메인화면</a></h1><br>" +
-                        "<br>" + "현재시각 : " + today + "</body></html>");
+        response.setContentType("text/html;charset=utf-8");
+        PrintWriter out = response.getWriter();
+        Date today = new Date();
+        out.println("<html>" +
+                "<body>" +
+                "<h1>메인화면</h1><br>" +
+        "<br>" + "현재시각 : " + today + "</body></html>");
 
 
-
-        }
 
     }
+
+}
 

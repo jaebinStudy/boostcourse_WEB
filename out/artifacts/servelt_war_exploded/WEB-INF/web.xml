@@ -10,6 +10,7 @@
 
     <servlet-mapping>
         <servlet-name>TodayServlet</servlet-name>
-        <url-pattern>Serv1</url-pattern>
-    </servlet-mapping>
+        <url-pattern>/aborted/today</url-pattern><![CDATA[
+
+    ]]></servlet-mapping>
 </web-app>

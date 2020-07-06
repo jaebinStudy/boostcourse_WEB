@@ -33,11 +33,13 @@ li {
     color: blue;
     background-color: #97c9c7;
     box-shadow: 1px 1px 1px 1px #999;
+    list-style: none;
 }
 
 .nav-line{
     text-decoration: none;
     text-align: center;
+    text-decoration: none;
 }
 
 

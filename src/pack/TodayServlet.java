@@ -22,7 +22,7 @@ public class TodayServlet extends HttpServlet {
         Date today = new Date();
         out.println("<html>" +
                 "<body>" +
-                "<h1>메인화면</h1><br>" +
+                "<h1><a href = '../../index.html'>메인화면</a></h1><br>" +
         "<br>" + "현재시각 : " + today + "</body></html>");
 
 
